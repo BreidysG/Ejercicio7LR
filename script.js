@@ -19,6 +19,7 @@ function startExercise() {
     // Ocultar botón de inicio
     document.getElementById('startButton').style.display = 'none';
     document.getElementById('containerInputButton').style.display = 'none';
+    document.getElementById("title").classList.add("hidden");
     columnshtml.classList.remove("hidden");
     
     columnshtml.style.display = "flex";
